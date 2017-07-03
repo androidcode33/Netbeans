@@ -1,0 +1,27 @@
+
+.mainFxmlClass {
+ -fx-background-image: url("background.jpg");
+}
+
+.button:hover{
+    -fx-font-size: 12px;
+     -fx-text-fill: white;
+    -fx-background-color: #0288D1;
+     -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.tab:hover{
+     -fx-font-size: 16px;
+     -fx-text-fill: white;
+    -fx-background-color: #0288D1;
+     -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
